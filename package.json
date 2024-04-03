@@ -4,11 +4,12 @@
   "description": "a typescript starter for 2024",
   "main": "dist/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "typecheck": "tsc --pretty --noEmit"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a-bolz/ts-2024.git"
+    "url": "git@github.com:a-bolz/ts-2024.git"
   },
   "keywords": [
     "typescript",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/a-bolz/ts-2024/issues"
   },
-  "homepage": "https://github.com/a-bolz/ts-2024#readme"
+  "homepage": "https://github.com/a-bolz/ts-2024#readme",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
 }
