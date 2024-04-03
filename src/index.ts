@@ -1,3 +1,5 @@
-const hello = (arg: string) => console.log(arg)
+const helloWorld = () => {
+  console.log('hello world')
+}
 
-hello('world')
+helloWorld()
