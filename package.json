@@ -1,0 +1,25 @@
+{
+  "name": "typescript-starter-2024",
+  "version": "1.0.0",
+  "description": "a typescript starter for 2024",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-bolz/ts-2024.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Andreas Bolz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-bolz/ts-2024/issues"
+  },
+  "homepage": "https://github.com/a-bolz/ts-2024#readme"
+}
