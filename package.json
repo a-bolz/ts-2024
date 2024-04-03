@@ -4,8 +4,9 @@
   "description": "a typescript starter for 2024",
   "main": "dist/index.js",
   "scripts": {
-    "test": "test",
-    "typecheck": "tsc --pretty --noEmit"
+    "typecheck": "tsc --pretty --noEmit",
+    "transpile": "tsc src/index.ts",
+    "start": "npm run transpile && node dist/index.js"
   },
   "repository": {
     "type": "git",
